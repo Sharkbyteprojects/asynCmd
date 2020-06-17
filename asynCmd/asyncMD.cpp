@@ -1,4 +1,9 @@
+/**
+This Code is under the MIT-License
+<c> Sharkbyteprojects
+*/
 #include <iostream>
+#include <cstdlib>
 #include <thread>
 #include "text.h"
 void asyncf(const char* hello) {
