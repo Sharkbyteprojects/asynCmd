@@ -183,7 +183,14 @@
     <ClCompile Include="asyncMD.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="text.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="asynCmd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
