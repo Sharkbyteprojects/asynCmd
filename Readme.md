@@ -17,3 +17,5 @@ WINDOWS EXAMPLE:
  
 ---
 The Source of asynCmd is completely Free under the MIT-License!
+
+[Download](https://github.com/Sharkbyteprojects/asynCmd/releases/latest)
