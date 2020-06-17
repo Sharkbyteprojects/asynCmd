@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="asyncMD.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="text.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

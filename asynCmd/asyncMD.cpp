@@ -1,16 +1,26 @@
 #include <iostream>
 #include <thread>
+#include "text.h"
 void asyncf(const char* hello) {
 	system(hello);
 }
 int main(int argc, char const* argv[]) {
+	std::cout << init << std::endl;
 	if (argc > 1) {
-		for (int x = 0; x < argc; x++) {
-			const char* args = argv[x + 1];
+			const char* args = argv[1];
 			std::thread full(asyncf, args);
+			if (argc > 2) {
+				const char* args = argv[2];
+				std::thread fulls(asyncf, args);
+				fulls.join();
+			}
+			else {
+				std::cerr << noSecArg << std::endl;
+			}
 			full.join();
-		}
 	}
-	else {}
+	else {
+		std::cout << helps << std::endl;
+	}
 	return 0;
 }
