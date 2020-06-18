@@ -10,11 +10,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     # Runs a set of commands using the runners shell
+    - name: Setup
+      run: |
+        sudo apt-get install clang
     - name: Compile
       run: |
         cd ./asynCmd
-        sudo apt-get install clang
-        clang++ -Wall -std=c++11 asyncMD.cpp -o asynCmd
+        clang++ -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread
         mv asynCmd ../asynCmd
         cd ..
     - name: Upload a Build Artifact
