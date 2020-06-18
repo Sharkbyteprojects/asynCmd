@@ -17,7 +17,7 @@ jobs:
       run: |
         cd ./asynCmd
         clang++ -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread
-        mv asynCmd ../asynCmd
+        mv ./asynCmd ../asynCmd.lexe
         cd ..
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
@@ -25,4 +25,4 @@ jobs:
       # Artifact name
         name: linuxBuild
       # A file, directory or wildcard pattern that describes what to upload
-        path: ./asynCmd
+        path: ./asynCmd.lexe
