@@ -1,4 +1,4 @@
-name: asynCmd g++
+name: asynCmd clang++
 on:
   push:
     branches: [ master ]
