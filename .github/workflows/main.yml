@@ -16,6 +16,8 @@ jobs:
         g++ --static -std=c++11 asyncMD.cpp -o asynCmd -pthread
         mv ./asynCmd ../asynCmd.lexe
         cd ..
+    - name: Test App
+      run: ./asynCmd.lexe
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
