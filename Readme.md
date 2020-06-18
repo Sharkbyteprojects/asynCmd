@@ -2,7 +2,7 @@
 # asynCmd
 ![asynCmd clang++](https://github.com/Sharkbyteprojects/asynCmd/workflows/asynCmd%20g++/badge.svg)
 
-## Readme
+[Wiki](https://github.com/Sharkbyteprojects/asynCmd/wiki) | [Issues](https://github.com/Sharkbyteprojects/asynCmd/issues)
 
 ### How to Use asynCmd?
 
