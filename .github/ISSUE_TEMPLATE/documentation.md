@@ -7,9 +7,10 @@ assignees: ''
 
 ---
 
-**|Title of the Feature|**
+**|Title of the Documentation site|**
 **|Describtion|**
 ---
 |Your content|
 
 | Replace all content between `|` with the described content
+| If this is a good entry, we will add this to Wiki of this project|
