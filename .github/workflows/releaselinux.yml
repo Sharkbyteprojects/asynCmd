@@ -18,7 +18,7 @@ jobs:
       - name: Build project # This would actually build your project, using zip for an example artifact
         run: |
           cd ./asynCmd
-          clang++ --static -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread
+          clang++ -static -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread -lstdc++
           zip --junk-paths linux asynCmd
           cd ..
       - name: Create Release
