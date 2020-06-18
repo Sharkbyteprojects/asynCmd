@@ -21,3 +21,6 @@ WINDOWS EXAMPLE:
 The Source of asynCmd is completely Free under the MIT-License!
 
 [Download](https://github.com/Sharkbyteprojects/asynCmd/releases/latest)
+
+### Compile with Linux
+Download repos and switch to the Folder `asynCmd` in the Repos, the follow this guide: [Compile under Linux](https://github.com/Sharkbyteprojects/asynCmd/blob/master/asynCmd/commands_to_compile_with_linux.md)
