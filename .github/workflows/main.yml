@@ -10,9 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    - name: Compile
       run: |
-        apt-get install g++ -y
+        sudo apt-get install g++ -y
         cd ./asynCmd
         g++ --static asyncMD.cpp -o asynCmd -std=11
         mv asynCmd ../asynCmd
