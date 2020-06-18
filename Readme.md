@@ -1,6 +1,6 @@
 <object data="https://raw.githubusercontent.com/Sharkbyteprojects/asynCmd/master/.readme_files/Logo%20asyncmd.svg" height="100"><img src="https://raw.githubusercontent.com/Sharkbyteprojects/asynCmd/master/.readme_files/Logo%20asyncmd.png" height="100"></object>
 # asynCmd
-![asynCmd clang++](https://github.com/Sharkbyteprojects/asynCmd/workflows/asynCmd%20clang++/badge.svg)
+![asynCmd clang++](https://github.com/Sharkbyteprojects/asynCmd/workflows/asynCmd%20g++/badge.svg)
 
 ## Readme
 

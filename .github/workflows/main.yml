@@ -1,4 +1,4 @@
-name: asynCmd clang++
+name: asynCmd g++
 on:
   push:
     branches: [ master ]
@@ -10,13 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     # Runs a set of commands using the runners shell
-    - name: Setup
-      run: |
-        sudo apt-get install clang
     - name: Compile
       run: |
         cd ./asynCmd
-        clang++ -static -std=c++11 asyncMD.cpp -o asynCmd -pthread -lstdc++
+        g++ --static -std=c++11 asyncMD.cpp -o asynCmd -pthread
         mv ./asynCmd ../asynCmd.lexe
         cd ..
     - name: Upload a Build Artifact
