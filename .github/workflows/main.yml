@@ -13,7 +13,7 @@ jobs:
     - name: Compile
       run: |
         cd ./asynCmd
-        g++ --static -std=c++14 asyncMD.cpp -o asynCmd -Wl --no-as-needed
+        g++ --static -std=c++14 asyncMD.cpp -o asynCmd -pthread
         mv asynCmd ../asynCmd
         cd ..
     - name: Upload a Build Artifact
