@@ -16,7 +16,7 @@ jobs:
     - name: Compile
       run: |
         cd ./asynCmd
-        clang++ -static -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread -lstdc++
+        clang++ -static -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread -lstdc++ -stdlib=libstdc++
         mv ./asynCmd ../asynCmd.lexe
         cd ..
     - name: Upload a Build Artifact
