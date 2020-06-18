@@ -1,7 +1,5 @@
 name: asynCmd g++
 on:
-  commit:
-    branches: [ master ]
   push:
     branches: [ master ]
   pull_request:
