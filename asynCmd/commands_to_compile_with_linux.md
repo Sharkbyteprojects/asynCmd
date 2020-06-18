@@ -6,5 +6,5 @@ Commands:
 
 ## With Clang++
 Commands:
-- Install: Ubuntu/Debian based: `sudo apt-get update&&sudo apt-get install clang`; Alpine Linux: `apk add clang`
+- Install: Ubuntu/Debian based: `sudo apt-get update&&sudo apt-get install clang g++`; Alpine Linux: `apk add clang g++`
 - Compile: `clang++ -static -Wall -std=c++11 asyncMD.cpp -o asynCmd -pthread -lstdc++`
