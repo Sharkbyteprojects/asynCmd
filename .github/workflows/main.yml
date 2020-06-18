@@ -14,7 +14,7 @@ jobs:
       run: |
         sudo apt-get install g++ -y
         cd ./asynCmd
-        g++ --static asyncMD.cpp -o asynCmd -std=11
+        g++ --static asyncMD.cpp -o asynCmd -std=c11
         mv asynCmd ../asynCmd
         cd ..
     - name: Upload a Build Artifact
